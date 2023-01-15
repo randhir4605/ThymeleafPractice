@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p th:text="${message}"></p>
+	Today is : <p th:text="${#dates.format(today,'dd-MMM-yyyy')}"></p>
+	<a th:href="@{http://localhost:8080/user/1}"> User Profile </a>
+</body>
+</html>
